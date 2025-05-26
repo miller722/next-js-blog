@@ -1,4 +1,3 @@
-import PageCard from "@/components/PostCard";
 import Header from "../components/Header";
 import PostSearch from "@/components/PostSearch";
 import PostList from "@/components/PostList";
