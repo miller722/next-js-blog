@@ -39,7 +39,7 @@ export const authConfig: AuthOptions = {
                 if (
                     credentials?.email === mockUser.email &&
                     credentials?.password === mockUser.password
-                ) {
+                ) {// eslint-disable-next-line @typescript-eslint/no-unused-vars
                     const { password, ...userWithoutPassword } = mockUser;
                     return userWithoutPassword;
                 }

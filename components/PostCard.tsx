@@ -1,5 +1,4 @@
 "use client"
-import { useSession } from "next-auth/react";
 import type { Post } from "@/types/types";
 
 type PostCardProps = {
