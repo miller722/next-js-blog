@@ -4,7 +4,7 @@ import PostSearch from "./PostSearch";
 
 export default function PostSearchWrapper() {
   return (
-    <Suspense fallback={<div>Завантаження пошуку...</div>}>
+    <Suspense fallback={<div>Loading serach...</div>}>
       <PostSearch />
     </Suspense>
   );
